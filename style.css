@@ -1,0 +1,262 @@
+*{
+        margin: 0;
+        padding: 0;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+#inner1{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 18px;
+    
+}
+h2 span{
+    font-weight: 200;
+}
+
+#outer{
+    color: white;
+    position: relative;
+    height: 560px;
+    background: url(images/pic1.png);
+    background-color: #91918cb3;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px #474747a1;
+    
+}
+#inner2{
+    text-align: center;
+    margin: 120px; 
+}
+.btn1{
+    color: white;
+    border-color: white;
+    background: transparent;
+    border-radius: 25px;
+    font-size: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+    
+}
+button b{
+    color: white;
+}
+.heading1{
+    padding-top: 20px;
+    font-size: 1.1cm;
+
+}
+.para1{
+    padding-top:10px ;
+    font-size: 23px;
+}
+.btn2{
+    color: white;
+    border-color: white;
+    background: transparent;
+    margin-top: 30px;
+    border-radius: 25px;
+    font-size: 15px;
+    padding: 15px;
+}
+
+.logo{
+    margin-left: 80px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.navigation a{
+    color: white;
+    font-size: 0.4cm;
+    text-decoration: none;
+    margin-right: 40px;
+    font-weight: 600;
+    margin-right: 50px;
+    
+}
+.navigation a:hover{
+    color: inherit;
+    border-bottom: 1px solid red;
+}
+.services{
+    text-align: center;
+    margin-top: 65px;
+}
+.btn{
+    color: #ce2c47;
+    border-radius: 25px;
+    padding: 4px 15px 4px 15px;
+    font-weight: bold;
+    background: pink;
+    border: transparent;
+}
+.heading2{
+    margin-top: 20px;
+    color: black;
+    font-size: 25px;
+}
+.heading2 span{
+    color: #ce2c47;
+    font-weight: bold;
+}
+.para2{
+    margin-top: 20px;
+    font-weight: 500;
+}
+.outer2{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+#div1{
+    
+    width: 200px; 
+  height: 200px; 
+  background-color: white; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  margin: 20px; 
+  text-align: center;
+  padding: 20px;
+}
+.portfolio{
+    padding: 1px 8px 1px 8px;
+    border-radius: 15px;
+     background-color: rgb(196, 190, 190);
+    border: transparent;
+    transition: 3s;
+    margin-left: 10px;
+}
+.portfolio:hover{
+    color: white;
+    background: #ce2c47;
+}
+.btn2:hover{
+    color: black;
+    background: white;
+    transition: 3s;
+}
+.inner3{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 25px;
+}
+.outer4{
+    display: flex;
+    justify-content: space-evenly;
+}
+.inner4{
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+@media (max-width: 450px){
+    #inner1{
+        display: flex;
+        padding-top: 10px;
+            }
+   .navigation a{
+    display: flex;
+    justify-content: center;
+    margin-right: 110px;
+    font-size: 10px;
+    padding-top: 10px;
+   }
+   h2 span{
+    font-size: 25px;
+    margin-left: 20px;
+    }
+    #inner2{
+        text-align: center;
+        margin: 25px; }
+    .btn1{
+            
+            border-radius: 25px;
+            font-size: 20px;
+            margin-right: 7px;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 5px;
+            padding-bottom: 5px;}
+     .heading1{
+             
+             font-size: 0.45cm;
+             margin-right: 4px;
+            font-weight: bold;}
+    .para1{
+            padding-top:10px ;
+            font-size: 8px;
+            font-weight: bold;
+            margin-right: 7px;
+            white-space: pre-line;}
+        .btn2{
+            
+             margin-top: 10px;
+             border-radius: 20px;
+             font-size: 10px;
+             padding: 10px;}
+         #outer{
+            
+        height: 420px;
+        background-size: cover;}
+
+        .services{
+            text-align: center;
+            margin-top: 35px;
+        }
+        .btn{
+            padding: 2px 8px 2px 8px;
+            }
+            .heading2{
+                
+                margin-top: 20px;
+                font-size: 15px;
+                font-weight: bolder;}
+        h2 span{
+    padding-right: 10px;
+            font-size: 15px;
+            font-weight: bolder;
+        }
+        .para2{
+            margin-top: 20px;
+            font-size: 7px;           
+            font-weight: bolder;}
+            .outer2{
+                margin-top: 30px;
+                display: flex;
+                justify-content: space-around;
+                flex-wrap: wrap;
+            }
+            #div1{
+    
+                width: 200px; 
+              height: 200px; 
+              background-color: white; 
+              box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+              margin: 20px; 
+              text-align: center;
+              padding: 20px;}
+              .inner3{
+                display: flex;
+                flex-direction: column;
+                
+                margin-top: 25px;}
+                .outer4{
+                    display: flex;
+                    justify-content: space-evenly;
+                    flex-wrap: wrap;
+                    flex-direction: column;
+                }
+                .portfolio{
+                    padding: 1px 8px 1px 8px;
+                    border-radius: 15px;
+                    margin-top: 15px;
+                    margin-left: 3px;
+                    margin-right: 2px;
+                }         
+.outer3{
+    display: flex;
+    justify-content: none;
+    flex-direction: column;
+}
+}
